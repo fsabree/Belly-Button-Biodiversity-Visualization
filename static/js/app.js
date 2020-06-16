@@ -1,8 +1,6 @@
-// Use D3 fetch to read the JSON file
-//const newLocal = ;
-
+//Create function to display the plots
 function displayIdPlots(id){
-
+// Use D3 fetch to read the JSON file
 // The data from the JSON file is arbitrarily named dataset as the argument
 d3.json("data/samples.json").then((dataset) => {
     console.log(dataset);
